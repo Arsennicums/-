@@ -1,2 +1,3 @@
 document.write("Hi");
 Goodbye("All")
+hello("Arsen")

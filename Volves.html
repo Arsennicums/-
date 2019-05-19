@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Volves</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/volves.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<header class="col-md-12">
+				<h1>Гласные</h1>
+			</header>
+		</div>
+		<div class="row">
+			<section class="col-md-8 col-md-offset-2">
+			<p>
+				В английском языке 26 букв, буквы гласные <span>A, E, I, O и U</span>
+				Введите слово на английском и программа расчитает вам сколько гласных букв в введенном слове.
+			</p>
+			<input type="text" id="text">
+			<br>
+			<input type="submit" id="btn" value="расчитать гласные буквы" onclick="check()">
+		</section>
+		</div>
+			<footer class="row">
+			<span class="social">Я в социальных сетях.</span>
+				<ul class="list-inline col-md-8 col-md-offset-2">
+					<li>
+						<a href="#">
+							<i class="fa fa-facebook-official fa-3x" style="color: blue;" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-github fa-3x" style="color: mediumslateblue;" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-vk fa-3x" style="color: blue;" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-telegram fa-3x" style="color:lightseagreen;" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>				
+			<span class="copy">&copy;2019 Arsennicum</span>
+		</footer>
+		</div>
+
+	<script>
+		var text = document.getElementById('text');
+		var j = 0;
+		function check(){
+		let type = text.value.toLowerCase().split('');
+			for(let i = 0; i < type.length; i++){
+				if(type[i] == 'a' || type[i] == 'e' || type[i] == 'i' || type[i] == 'o' || type[i] == 'u'){
+					j++;
+				}
+			}
+			alert(j);
+			j = j - j;
+		}
+
+	</script>
+	<script src="https://use.fontawesome.com/190df3a827.js"></script>
+</body>
+</html>

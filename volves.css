@@ -1,0 +1,63 @@
+
+	@import url('https://fonts.googleapis.com/css?family=Pacifico&subset=cyrillic');
+	body{
+		margin: 0;
+	}
+		.container-fluid{
+			height: 100vh;
+			background-color: #81ffff;
+			border: 3px solid #febe43;
+		}
+		header{
+			height: 35vh;
+		}
+		header h1{
+			margin-top: 3px;
+			font-size: 6em;
+			text-align: center;
+			font-family: 'Pacifico', cursive;
+		}
+		section{
+			height: 40vh;
+		}
+		p{
+			text-align: center;
+			margin: 0 10% 6% 10%;
+			font-size: 1.5em;
+		}
+		#text{
+			margin: 2% 40%;
+			width: 200px;
+			border: 3px solid #ccb337;
+			border-radius: 3px;
+		}
+		#btn{
+			margin: 0 40% 30px;
+			font-size: 1em;
+			color: 	#ccb337;
+			border: 3px solid #ccb337;
+			border-radius: 3px;
+			background-color: #81ffff;
+		}
+		footer{
+			height: 15vh;
+		}
+		.social{
+			margin: 80px 40%;
+			font-family: 'Pacifico', cursive;
+			font-size: 1.5em;
+		}
+		li{
+			margin: auto 8%;
+		}
+		li:first-child{
+			margin-left: 15%;
+		}
+		
+		.copy{
+			float: left;
+			margin-left: 10%;
+			margin-bottom: 10px;
+			font-family: 'Pacifico', cursive;
+			font-size: 1.5em; 
+		}

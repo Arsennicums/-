@@ -1,2 +1,0 @@
-somebody ("text")
-print("Hello");
